@@ -1,0 +1,23 @@
+{
+ "name": "@starryui/tutorial-2023-09-23-esbuild-supabase",
+ "version": "0.0.0",
+ "description": "The full source code for the project created in this tutorial is available on [GitHub](https://github.com/starryui/tutorial-2023-09-23-esbuild-supabase).",
+ "main": "index.js",
+ "scripts": {
+  "watch": "echo 'run watch:1 watch:2 and watch:3 separately'",
+  "watch:1": "npm run --prefix client watch:1",
+  "watch:2": "npm run --prefix client watch:2",
+  "watch:3": "npm run --prefix server watch:1",
+  "watch:4": "npm run --prefix server watch:2"
+ },
+ "repository": {
+  "type": "git",
+  "url": "git+ssh://git@github.com/starryui/tutorial-2023-09-23-esbuild-supabase.git"
+ },
+ "author": "Nate Ferrero <nate@tagme.in>",
+ "license": "MIT",
+ "bugs": {
+  "url": "https://github.com/starryui/tutorial-2023-09-23-esbuild-supabase/issues"
+ },
+ "homepage": "https://github.com/starryui/tutorial-2023-09-23-esbuild-supabase#readme"
+}

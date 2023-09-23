@@ -1,0 +1,32 @@
+{
+ "name": "@starryui/tutorial-2023-09-23-esbuild-supabase--client",
+ "version": "0.0.0",
+ "description": "",
+ "main": "index.js",
+ "scripts": {
+  "build": "tsc --noEmit index.ts && esbuild index.ts --bundle --sourcemap --outdir=../server/public/client-bundle",
+  "watch": "echo 'run watch:1 and watch:2 separately'",
+  "watch:1": "tsc --watch --noEmit index.ts",
+  "watch:2": "esbuild index.ts --watch --bundle --sourcemap --outdir=../server/public/client-bundle"
+ },
+ "repository": {
+  "type": "git",
+  "url": "git+ssh://git@github.com/starryui/tutorial-2023-09-23-esbuild-supabase.git"
+ },
+ "author": "Nate Ferrero <nate@tagme.in>",
+ "license": "MIT",
+ "bugs": {
+  "url": "https://github.com/starryui/tutorial-2023-09-23-esbuild-supabase/issues"
+ },
+ "homepage": "https://github.com/starryui/tutorial-2023-09-23-esbuild-supabase#readme",
+ "devDependencies": {
+  "esbuild": "^0.19.3"
+ },
+ "dependencies": {
+  "@starryui/layout": "^0.0.13",
+  "@starryui/theme-midnight": "^0.0.13",
+  "@starryui/theme": "^0.0.13",
+  "@starryui/traits": "^0.0.13",
+  "typescript": "^5.2.2"
+ }
+}
